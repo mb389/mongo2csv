@@ -1,0 +1,19 @@
+{
+  "name": "mongo2csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "dookie": "^0.1.19",
+    "json2csv": "^3.6.3",
+    "mongodb": "^2.2.7",
+    "mongoose": "^4.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
