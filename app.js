@@ -2,7 +2,7 @@ const json2csv = require('json2csv');
 const fs = require('fs');
 const dookie = require('dookie');
 //need working DB URI
-const DB_URI = 'mongodb://user:password@ds025685-a0.mlab.com:25685/heroku_j2wnvln4'
+const DB_URI = process.env.DB_URI
 var fields, fieldNames, opts, data;
 
 dookie
